@@ -32,16 +32,16 @@ img{border:none;}
 .yesStyle{color:green; background:url('../../images/sign/yes_small.gif') center left no-repeat;padding-left:20px;}
 .clear{clear:both; overflow:hidden; height:1px;}
 
-/********澶撮儴********/
-.top {float:center;}
+/********澶撮�?*******/
+/* .top {float:center;}
 .top_left {float:left;width:310px;height:80px;margin:0 auto;margin:0px 10px 0px 195px}
 .top_right {width:650px;height:70px; margin:0px 110px 0px 400px} 
 .top_right .nav_up {float:right;}
 .logo{float:left;margin:0 auto;margin:0px 0px 0px 195px}
 .header{float:center;}
 width:600px;margin:5px 0px 0px 600px;
-#nav_top {float:right;}   
-#nav_down{width:600px;}
+#nav_top {margin:0 auto;float:right;}   
+#nav_down{margin:0 auto;width:600px;} */
 
 
 #header{margin:0 auto; width:960px; min-height:60px;}
@@ -60,7 +60,7 @@ width:600px;margin:5px 0px 0px 600px;
 
 /********椤堕儴鑿滃崟********/
 
-#nav{margin:0 auto; width:960px; height:30px; background:url('images/nav12.jpg'); z-index:9999; position:relative;}
+#nav{margin:10px auto; width:960px; height:30px; background:url('images/nav12.jpg'); z-index:9999; position:relative;}
 
 #nav .searchdiv{width:145px; float:right; padding-top:19px;}
 #nav .searchdiv input{width:114px; border:0px; font-size:16px;color:#148FC8; background:none;}
@@ -89,7 +89,7 @@ ul#topnav .sub ul li {display:block; height:28px; line-height:28px; border-botto
 ul#topnav .sub ul li a{display: block;}
 ul#topnav .sub ul li a:hover {color:#fff; }
 
-/********棣栭〉杞挱 鍥剧墖********/
+/********棣栭〉杞挱 鍥剧�?*******/
 
 
 /********鎵�湁椤甸潰鏁翠釜妗嗘灦********/
@@ -151,7 +151,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 
 .df4{width: 300px; float: left; padding-left: 20px;}
 
-/********鏂囩珷鍒楄〃********/
+/********鏂囩珷鍒楄�?********/
 .newlistul{padding:10px; list-style:none;}
 .newlistul li{font-size:14px; height:32px; line-height:32px; background:url('images/bg_dot.gif') no-repeat center left; text-indent:8px; overflow:hidden; border-bottom:1px dotted #cccccc;}
 .newlistul li a:link,.newlistul li a:hover,.newlistul li a:visited,.newlistul li a:active{color:#333;}
@@ -162,7 +162,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 .list_pager table tr td{vertical-align:middle;}
 
 
-/********浜у搧鍒楄〃********/
+/********浜у搧鍒楄�?*******/
 .proitem{width:160px; height:235px; float:left; padding:10px 0px 0px 50px; text-align:center; position:relative;}
 .proitem .price{font-size:11px; font-weight:bold; color:#F70000;}
 .proitem .proimg a{width:160px; height:160px; display:block;}
@@ -210,7 +210,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 .probtn{padding: 5px; height: 25px; background: #fafafa;}
 
 
-/********鎼滅储*************/
+/********鎼滅�?************/
 .searchpagediv{width:900px; margin:auto;}
 .searchitem{color:#666; line-height:180%; padding:8px 0px;}
 .searchitem u{color:red; text-decoration:none;}
@@ -231,7 +231,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 #widget_contact .online ul{list-style:none; padding:0px; margin:px;}
 #widget_contact .online ul li{list-style:none; padding:0px; display:block; line-height:150%; margin:8px; padding-left:20px; font-size:12px; background-image:url('images/bg_contact.gif');background-repeat:no-repeat;}
 
-/********鑱旂郴鎴戜滑->鍥炬爣********/
+/********鑱旂郴鎴戜滑->鍥炬�?*******/
 .ctico{}
 .leftcate .ctico li{display:block; line-height:150%; margin:6px; font-size:11px; background-image:url('images/bg_contact.gif');background-repeat:no-repeat; text-indent:20px; }
 .ctico .ctphone{font-size:12px;}
@@ -243,7 +243,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 .ctyahoo{background-position:0px -155px;}
 
 
-/********Page椤甸潰********/
+/********Page椤甸�?*******/
 
 .marginauto{margin:auto;}
 .main_table .viewsource{text-align:center; height:30px;}
@@ -266,7 +266,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 #link_text ul li.first{font-weight:bold; color:#333; padding:1px 8px 2px 0px; }
 
 
-/********鐣欒█鏉�*******/
+/********鐣欒█鏉�?******/
 .msgsearch{width:100%;}
 .msgsearch td{padding:8px 4px;}
 .msgsearch form{float:right;}
@@ -297,7 +297,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 .msg_title1 b{display:block; color:#333; font-size:14px; padding:8px 0px;}
 
 
-/********鎶曠エ********/
+/********鎶曠�?*******/
 .voteheader{margin:0px; padding:4px 0px; font-size:18px; color:#083773; font-weight:bold; background:url('../../images/img_vote.gif') center left no-repeat; text-indent:25px; border-bottom:1px dotted #c0c0c0;}
 .voteitem{margin:5px 0px 10px 0px; line-height:150%;}
 .voteitem ul, .voteitem ul li{list-style:none; margin:0px; padding:0px;}
@@ -316,7 +316,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 .votesucceed{padding:10px; width:600px; margin:auto; margin-bottom:10px; background:#f5f5f5; border:1px solid #dedede; font-weight:bold;  text-align:center;}
 
 
-/********搴曢儴*************/
+/********搴曢�?************/
 .footer{
 	text-align:center; 
 	font-size:10pt; 
@@ -335,7 +335,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 
 
 
-/********** Pagination 鍒嗛〉 *********/
+/********** Pagination 鍒嗛�?*********/
 .Pagination {height:30px;background:url('../../images/pager.gif') 0px 0px;font-size:11px;}
 .Pagination a {padding:0px 2px;height:30px;line-height:30px;color:#574747;float:left;text-align:center;border-right:1px solid #D5CEC8;border-left:1px solid #FFFFFF;display:block;}
 .Pagination a:link,.Pagination a:visited,.Pagination a:active,.Pagination a:hover{color:#574747;text-decoration:none;}
@@ -351,7 +351,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 
 
 /************** Banner 妯箙骞垮憡*************/
-#banner{margin:0 auto; width:960px;border:2px solid #eee;}
+#banner{margin:0 auto; width:960px;border:0 solid #eee;}
 #imgPlay {
 	MARGIN:8px auto; OVERFLOW:hidden; WIDTH:960px; ZOOM:1; POSITION:relative; HEIGHT:304px; z-index:1;
 }
@@ -406,7 +406,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 }
 
 
-/**********PopUp (Cover Div) 寮瑰嚭绐楀彛***********/
+/**********PopUp (Cover Div) 寮瑰嚭绐�?��***********/
 .coverDiv{position:absolute;left:0px;top:0px;width:1px;height:1px;background-color:#000000;filter:alpha(opacity=10);-moz-opacity:0.10;opacity:0.10;}
 .coverDivClear{position:absolute;left:0px;top:0px;width:1px;height:1px;background-color:#000000;filter:alpha(opacity=1);-moz-opacity:0;opacity:0;}
 .coverFrame{width:0px;height:0px;filter:alpha(opacity=0);-moz-opacity:0;opacity:0;}
@@ -431,7 +431,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 .dialog_button input{margin:0px 3px; padding:2px 3px; font-size:12px;}
 
 
-/*******ext 鏂囦欢绫诲瀷********/
+/*******ext 鏂囦欢绫诲�?********/
 .ext_small{background:url('../../images/img_ext_small.gif') no-repeat;}
 .ext_small a{padding-left:20px;}
 .ext_small i{display:inline-block;width:16px;height:16px;}
@@ -496,7 +496,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 #skuul{list-style: none; margin: 0px; padding: 0px;}
 #skuul li{border:1px solid #d0d0d0; margin: 3px; float: left; height: 18px; line-height: 18px; padding: 3px; cursor:pointer;}
 #skuul li.cur{border:2px solid #f90; padding: 2px;}
-/*鐧诲綍*/
+/*鐧诲�?/
 .login_title{font-size:14px;color:#083773;font-weight:bold;}
 .login_div{width:980px; margin:auto;}
 .login_a1{width:150px;text-align:right;padding:5px;}
@@ -504,7 +504,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 .login_a2 a:link,.login_a2 a:active,.login_a2 a:visited,.login_a2 a:hover{color:#666;}
 .login_a3{}
 
-/*娉ㄥ唽*/
+/*娉ㄥ�?/
 .signup_div{width:980px;  margin:auto;}
 .signup_a1{width:150px;text-align:right;padding:5px;}
 .signup_a2{width:710px;padding:5px;color:#666666;}
@@ -571,7 +571,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 .TdOut2 {background:#e6e6e6;height:18px;border:1px solid #fff;border-top:1px solid #ccc;border-left:1px solid #ccc;color:#000;cursor:pointer;}
 
 
-/**********璁㈠崟**********/
+/**********璁㈠�?*********/
 .orderitem{ border:1px solid #e6e6e6; font-size:12px; width:98%; margin:auto; margin-bottom:10px;}
 .ordertitle b.ordernum{margin-right:20px; font-size:11px;}
 .ordertitle .time{font-weight:bold;}
@@ -608,7 +608,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 .actionbtn a:link,.actionbtn a:visited,.actionbtn a:active{color:#333;text-decoration:none;}
 .actionbtn a:hover{color:#000;text-decoration:underline;}
 
-/**********璐墿杞�*********/
+/**********璐墿杞�?********/
 .cartdiv{width:95%; margin:auto;}
 .cartdiv .cartdiv_title{display:block; height:40px; line-height:40px; text-indent:50px; font-size:18px; color:#083773; background:url('../../images/bg_cart.gif') no-repeat center left;}
 .cartdiv .cartdiv_title2{display:block; height:30px; line-height:30px; font-size:14px; color:#333; font-weight:bold; text-indent:15px; border-bottom:1px solid #dedede; background:url('images/ico_down.gif') no-repeat center left; width:880px; margin:auto;}
@@ -643,7 +643,7 @@ ul#topnav .sub ul li a:hover {color:#fff; }
 .ordertb .ordertd2 .price{font-weight:bold; color:#f30; font-size:11px;}
 .pagediv{float:right;}
 
-/**********鏀惰棌**********/
+/**********�?���?*********/
 .pagerdowntable{border-top:1px dotted #c0c0c0; width:98%; margin:auto;}
 *html #onlinecs1 { /*--IE6 Hack - Fixed Positioning to the Bottom--*/
 	margin-top: 50px; /*--Prevents IE6 from having an infinity scroll bar - due to 1px border on #footpanel--*/

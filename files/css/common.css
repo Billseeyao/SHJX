@@ -2,10 +2,22 @@
 .content_text {width:960px;font-size:10pt;float:center;
 		font:normal 10pt 'MicroSoft Yahei';
 	color:#666;}
-/*.top {width:960px;}*/
-.top_span {width:1300px;height:5px;background:#6666ff;margin:0 auto;
-	margin:0px 0px 5px 0px;}
 	
+/*=====	top */
+/*.top {width:960px;}*/
+.top {margin:0 auto;width:960px;}
+.top_span {margin:0 auto;height:5px;background:#6666ff;margin:0px 0px 5px 0px;}
+	
+ .top_left {float:left;width:310px;height:80px;margin:0 auto;margin:0px 10px 0px 0px}  /* margin:0px 10px 0px 195px */
+/* .top_left {float:left;width:30%;height:80px;margin:0 auto;margin:0px 10px 0px 0px} */
+.top_right {/* width:650px; height:70px;*/float:right;margin:0px 110px 0px 0px} /* margin:0px 110px 0px 400px */
+.top_right .nav_up {float:right;}
+.logo{float:left;margin:0 auto;margin:0px 0px 0px 195px}
+.header{float:center;}
+width:600px;margin:5px 0px 0px 600px;
+#nav_top {margin:0 auto;float:right;}   
+#nav_down{margin:0 auto;width:600px;}
+
 /*”Ô—‘—˘ Ω…Ë÷√*/
 
 /*À—À˜*/
