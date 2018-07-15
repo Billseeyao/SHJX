@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nav{max-width:1220px; _width:1220px;  height:45px; background:url(../images/bg-nav.gif) repeat-x; margin:0 auto; font-family:'Î¢ÈíÑÅºÚ', Arial, Helvetica, sans-serif}
+.ddsmoothmenu{ min-width:980px; max-width:1240px; height:45px; line-height:45px; font-size:14px; margin:0 auto; vertical-align:baseline; padding-left:0px; position:relative;z-index:9999 }
+.ddsmoothmenu ul{z-index:100; list-style:none;  margin:0; padding:0; vertical-align:baseline}
+
+/*Top level list items*/
+.ddsmoothmenu ul li{position: relative; display: inline; float: left; width:13%; _width:160px; }
+
+/*Top level menu link items style*/
+.ddsmoothmenu ul li a{display: block; text-align:center; padding:0; width:100%; }
+
+* html .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/display: inline-block;}
+
+.ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited{color:#fff; }
+.ddsmoothmenu ul .toph{margin:0; padding:0}
+.ddsmoothmenu ul .toph a.selected{ background:url(../images/bg-nav-hover.gif) center bottom repeat-x; /*color:#0090d6*/ color:#444}
+
+.ddsmoothmenu ul .toph a:hover{background:url(../images/bg-nav-hover.gif) center bottom repeat-x; color:#444}
+	
+/*1st sub level menu*/
+.ddsmoothmenu ul li ul{position: absolute;left:0; display: none; visibility: hidden; margin:0; padding:0; }
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.ddsmoothmenu ul li ul li{ background:none; width:100%; text-indent:50px; _text-indent:0px;}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenu ul li ul li ul{top: 0; background:none}
+
+/* Sub level menu links style */
+.ddsmoothmenu ul .subh a:link, .ddsmoothmenu ul .subh a:visited{ font-size:14px; font-weight:normal; border-top:1px solid #fff; border-bottom:1px solid #ddd;  text-align:left; _text-align:center; margin:0; color:#666; background:#f0f0f0;}
+.ddsmoothmenu ul .subh a:hover{ background:#0283c5; color:#fff}
+
+.subh{height:30px; line-height:30px; cursor:pointer;}
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{  position: absolute; top: 18px; right:10px; display:none }
+
+.rightarrowclass{position: absolute;top: 6px;right: 5px; display:none}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{position: absolute;left: 0;top: 0;width: 0;height: 0;background:none;}
+
+.toplevelshadow{ /*shadow opacity. Doesn't work in IE*/opacity: 0;}

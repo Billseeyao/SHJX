@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+/*
+*    <title> 产品介绍样式   </title>
+*/
+/*=====   contact_box =====*/
+.contact_box {border:2px solid #eee; line-height:30px;font-size:10pt;}
+.contact_box img {width:25px;height:30px;}
+#td_2  {padding:0px 0px 5px 20px;}
+#td_1 {padding:6px 0px 0px 20px;}
+
+
+/* ====  product4   start =======*/
+
+.main{float:left;}
+.product_info_start {padding:20px 10px 10px 10px;float:left;}
+.product_info_table {width:380px;height:300px;border:1px solid #EEE;}
+.product_info_table tr {line-height:20px;font-size:10pt;}
+.product_info_table td {padding:20px 0px 10px 5px;text-align:center;}
+.tr_block {background-color:#eee;}
+.product_attention {background-color:#ffffff;text-align:left;}
+
+/* ====  product4  end =======*/
+
+/* ====  product2    start =======*/
+
+.main{float:left;}
+.product_info_start2 {padding:20px 10px 10px 10px;float:left;}
+.product_info_table2_1 {width:380px;height:400px;border:1px solid #EEE;}
+.product_info_table2_1 tr {line-height:20px;font-size:10pt;}
+.product_info_table2_1 td {padding:20px 0px 10px 5px;text-align:center;}
+.tr_block2 {background-color:#eee;}
+.product_attention2 {background-color:#ffffff;text-align:left;}
+#product_info_title_1 {width:380px;}
+
+/* 产品与服务主列表 表格 */
+.products_table {width:680px;height:400px;border:1px solid #000000;text-align:center; line-height:20px;font-size:10pt;}
+.products_table td {border-right:1px solid #000000;}
+#products_table_tr_bottom {border-bottom:1px solid #000000;}
+#products_table_td_left {border-right:1px solid #000000;}
+
+/* 20170220  */
+.products_table1 {width:680px; border:1px solid #000000;cellspacing:0; cellpadding:0; text-align:center;}
+
+
+.product_info_table2_2 {width:680px;height:300px;border:1px solid black;}
+.product_info_table2_2 tr {font-size:10pt;}
+.product_info_table2_2 td {text-align:center;}
+.tr_block2 {background-color:#eee;}
+.product_attention2 {background-color:#000000;text-align:left;}
+#product_info_title_1 {width:380px;}
+#td_border {border-right:2px solid #000000;}
+#td_border2 {border-right:1px solid #c0c0c0;}
+#td_border3 {border:1px solid #c0c0c0; font-weight:bolder;}
+.tr_border_black {border-bottom:1px solid #c0c0c0; }
+.td_border2_bottom {border-bottom:1px solid #c0c0c0; }
+#font_h3 {text-align:center;}
+
+/* 
+.product_info_table2_2 {width:680px;height:400px;border:1px solid #EEE;}
+.product_info_table2_2 tr {line-height:20px;font-size:10pt;}
+.product_info_table2_2 td {padding:20px 0px 10px 5px;text-align:center;}
+.tr_block2 {background-color:#eee;}
+.product_attention2 {background-color:#ffffff;text-align:left;}
+#product_info_title_1 {width:380px;}
+#td_border {border-right:2px solid #000000;}
+#td_border2 {border-right:1px solid #c0c0c0;}
+#td_border3 {border:1px solid #c0c0c0; font-weight:bolder;}
+.tr_border_black {border-bottom:1px solid #c0c0c0; }
+.td_border2_bottom {border-bottom:1px solid #c0c0c0; }
+#font_h3 {text-align:center;} 
+*/
+
+.product_character {border:2px solid #acb4f4;padding:10px;}
+.application_fields{border:2px solid #eee;padding:10px;} 
+.product_attention {border:2px solid #eee;padding:10px;}
+/* ====  product2    end =======*/
+
+
+/*  ==== products5 start ======*/
+.main_text {float:right;}
+product_info_table2_3 table {float:right;}
+.product_info_table2_3 {width:380px;height:300px;border:1px solid #eee;line-height:20px;font-size:10pt;}
+.product_info_table2_3 td {padding:20px 0px 10px 5px;text-align:center;}
+#td_border {border-right:1px solid #eee;}
+
+
+/*  ====样品文字说明 特性css start 20170212 ======*/
+.cpjs {border:2px solid #eee;padding:10px;}
+.gjxn {border:2px solid #eee;padding:10px;}
+.syfw {border:2px solid #eee;padding:10px;}
+.tedian {border:2px solid #eee;padding:10px;}
+.syybc {border:2px solid #eee;padding:10px;}
+.cpjs_PTFE {width:400px;border:2px solid #eee;padding:10px;float:right;}
+
+.daodianbuTable {width:700px;border:1px solid #EEE;font-size:9pt;line-height:20px;padding:20px 0px 10px 5px;text-align:center;}
+.handline {background-color:#8080ff;text-align:center;}
+.handline1 {background-color:#acacff;text-align:center;}
+
+.productsImg {text-align:center;}
+.productsImg1 {float:left;}
+.productsImg2 {float:right;}
+
+.home_table tr {margin:20px 10px 0px 0px;}
+
+.daodianbuTable1 {width:700px;height:400px;border:1px solid #000000;font-size:10pt;line-height:20px;padding:20px 0px 10px 5px;text-align:center;}
